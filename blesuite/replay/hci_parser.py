@@ -1,6 +1,6 @@
 from blesuite.replay.btsnoop.android.snoopphone import SnoopPhone
 import binascii
-import util
+import blesuite.replay.util as util
 import blesuite.replay.btsnoop.btsnoop.btsnoop as bts
 import blesuite.replay.btsnoop.bt.hci_uart as hci_uart
 import blesuite.replay.btsnoop.bt.hci_acl as hci_acl

@@ -1,8 +1,8 @@
 import os
 import tempfile
-import ConfigParser
+import configparser
 
-from phone import Phone
+from .phone import Phone
 
 
 BTSTACK_CONFIG_FILE = 'bt_stack.conf'

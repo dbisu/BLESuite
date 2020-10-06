@@ -4,11 +4,11 @@
 # TODO: Move stuff here to their corresponding modules
 #
 import binascii
-import btsnoop.btsnoop as bts
-import bt.hci_cmd as hci_cmd
-import bt.hci_uart as hci_uart
+import blesuite.replay.btsnoop.btsnoop as bts
+import blesuite.replay.btsnoop.bt.hci_cmd as hci_cmd
+import blesuite.replay.btsnoop.bt.hci_uart as hci_uart
 
-from android.snoopphone import SnoopPhone
+from blesuite.replay.btsnoop.android.snoopphone import SnoopPhone
 
 
 def get_ltk(path=None):
